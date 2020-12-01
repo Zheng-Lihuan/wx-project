@@ -1,0 +1,18 @@
+.video-js .vjs-big-play-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.video-js .vjs-big-play-button {
+  line-height: 2em;
+  height: 2em;
+  width: 2em;
+  border-radius: 100%;
+  border: .05em solid #fff;
+}
+
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before, .vjs-button>.vjs-icon-placeholder:before {
+  text-align: center;
+  font-size: 1.5em;
+}
